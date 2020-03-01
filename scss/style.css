@@ -1,0 +1,139 @@
+.bg {
+  background-image: url(../img/bg.png);
+  color: #d7d7d7;
+  width: 960px;
+  height: 882px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper {
+  width: 817px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 201px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-left {
+  width: 270px;
+}
+
+.header-left span {
+  position: absolute;
+  font-size: 13px;
+  letter-spacing: -1px;
+  margin: -32px 0 0 85px;
+}
+
+.images {
+  position: relative;
+}
+
+.logo {
+  z-index: 2;
+  position: absolute;
+  margin: 130px 0 0 0;
+}
+
+.tree {
+  z-index: 1;
+  position: relative;
+  margin: 55px 0 0 141px;
+}
+
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 11px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0 11px 13px 0;
+}
+
+.header-right span {
+  margin-bottom: 3px;
+}
+
+.header-right a {
+  font-size: 9px;
+  line-height: 12px;
+  text-decoration: none;
+  color: #d7d7d7;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3px;
+}
+
+.main img {
+  width: 255px;
+  height: 175;
+  padding: 4px;
+  background-color: #9b9b9b;
+  -webkit-box-shadow: 1px 0px 10px 2px rgba(0, 0, 0, 0.9);
+          box-shadow: 1px 0px 10px 2px rgba(0, 0, 0, 0.9);
+}
+
+.main div:nth-last-child(-n+3) {
+  margin-top: 51px;
+}
+
+.country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.country span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 17px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.footer span {
+  color: #e6e6e6;
+  font-size: 11px;
+  margin: 185px 0 0 12px;
+}
+/*# sourceMappingURL=style.css.map */
